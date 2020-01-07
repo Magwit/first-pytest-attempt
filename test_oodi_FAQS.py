@@ -41,5 +41,3 @@ def test_oodi_faq_interaction(browser):
             return False
 
     assert element_present_check() is True
-
-
