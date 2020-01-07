@@ -40,8 +40,6 @@ def test_oodi_faq_interaction(browser):
         except NoSuchElementException:
             return False
 
-    assert element_present_check() == True
+    assert element_present_check() is True
 
-    # I need another try catch to assert that the elements exixts.
-    # https://stackoverflow.com/questions/6521270/webdriver-check-if-an-element-exists
-    # dog_faq.click()
+
